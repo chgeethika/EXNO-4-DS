@@ -85,7 +85,8 @@ scaler=RobustScaler()
 df2[['Height','Weight']]=scaler.fit_transform(df2[['Height','Weight']])
 df2.head()
 ```
-![o 9](https://github.com/chgeethika/EXNO-4-DS/assets/142209368/0a3cd098-f66f-4bf6-85e3-72456bbabb73)
+![o 9](https://github.com/chgeethika/EXNO-4-DS/assets/142209368/901d2619-ef1e-46bb-86c4-36ffb88643f2)
+
 
 ```
 import pandas as pd
@@ -97,7 +98,9 @@ from sklearn.metrics import accuracy_score,confusion_matrix
 data=pd.read_csv('/content/income(1) (1).csv',na_values=[" ?"])
 data
 ```
-![o 10](https://github.com/chgeethika/EXNO-4-DS/assets/142209368/248692d2-057e-43fa-b5fa-0da65a5dd2ce)
+![o 10](https://github.com/chgeethika/EXNO-4-DS/assets/142209368/f77e9573-50ee-4640-9b7e-d3341488313c)
+
+
 
 ```
 data.isnull().sum()
